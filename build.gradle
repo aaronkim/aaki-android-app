@@ -23,5 +23,5 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-//    compile 'com.github.aaronkim:aaki-component-data-android:0.0.1'
+    compile project(':component-data')
 }

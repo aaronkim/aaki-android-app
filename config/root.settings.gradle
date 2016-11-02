@@ -1,0 +1,3 @@
+include ':app'
+include ':component-data'
+include ':component-log'
