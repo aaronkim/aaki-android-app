@@ -1,3 +1,9 @@
 include ':app'
-include ':base-data'
-include ':base-log'
+
+include ':libs:lib-base:base-data'
+include ':libs:lib-base:base-log'
+include ':libs:lib-component:component-node'
+include ':libs:lib-model:model-cube'
+
+//project(':component-data').projectDir = new File("bcmw/component-data")
+//project(':component-log').projectDir = new File("bcmw/component-log")
