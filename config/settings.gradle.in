@@ -1,9 +1,21 @@
 include ':app'
 
-include ':libs:lib-base:base-data'
-include ':libs:lib-base:base-log'
-include ':libs:lib-component:component-node'
-include ':libs:lib-model:model-cube'
+//include ':libs:lib-base:base-data'
+include ':base-data'
+project(':base-data').projectDir = new File("libs/lib-base/base-data")
 
-//project(':component-data').projectDir = new File("bcmw/component-data")
-//project(':component-log').projectDir = new File("bcmw/component-log")
+//include ':libs:lib-base:base-log'
+include ':base-log'
+project(':base-log').projectDir = new File("libs/lib-base/base-log")
+
+
+
+//include ':libs:lib-component:component-node'
+include ':component-node'
+project(':component-node').projectDir = new File("libs/lib-component/component-node")
+
+
+
+//include ':libs:lib-model:model-cube'
+include ':model-cube'
+project(':model-cube').projectDir = new File("libs/lib-model/model-cube")

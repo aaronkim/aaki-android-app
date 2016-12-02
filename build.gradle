@@ -23,5 +23,6 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile project(':component-data')
+    compile project(':base-log')
+    compile project(':base-data')
 }
