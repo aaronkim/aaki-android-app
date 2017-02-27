@@ -7,7 +7,7 @@ android {
     defaultConfig {
         minSdkVersion 21
         targetSdkVersion 21
-        applicationId "aaki.component.test"
+        applicationId "bcdm.base.test"
         versionCode 1
         versionName "0.0.1"
     }
